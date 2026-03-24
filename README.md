@@ -1,12 +1,11 @@
 # LinkedIn Top Posts --- End-to-End Classification, EDA and Regression Analysis.
 ## Project Overview:
-LinkedIn offers Impressions & Ingagements data for top 50 posts. The aim of this project is to scrape those posts, assigning attributions, 
-classifying them into categories, performing full Exploratory Data Analysis with Data Visualization and 
+LinkedIn offers Impressions & Engagements data for top 50 posts. The aim of this project is to scrape those posts, assigning attributions, classifying them into categories, performing full Exploratory Data Analysis with Data Visualization and applying regression analysis to find guiding weights.
 
 ## Data License and Attribution:
-Data inside the 'Posts' floder is my personal top 50 posts provided by LinkedIn and available for public use.
+Data inside the 'Posts' folder is my personal top 50 posts provided by LinkedIn and available for public use.
 
-## Files & Floders:
+## Files & Folders:
 1. requirements.txt:
     * Project Dependencies.
 1. Posts (Folder):
@@ -22,13 +21,14 @@ Data inside the 'Posts' floder is my personal top 50 posts provided by LinkedIn 
 
 
 ## Process:
-1.Top posts analysis download from LinkedIn .
-1. Manual posts scraping & sttribution.
-1. Posts content exctration and DataFrame structuring.
+1. Top posts analysis download from LinkedIn .
+1. Manual posts scraping & attribution.
+1. Posts content exctraction and DataFrame structuring.
 1. Post classification.
 1. Feature Engineering.
 1. Exploratory Data Analysis.
 1. Machine Learning Modeling, Cross Validation and Hyper-Parameters tuning.
+1. Weights ectraction and interpretation.
 
 
 ## Libraries Used:
@@ -49,3 +49,7 @@ Data inside the 'Posts' floder is my personal top 50 posts provided by LinkedIn 
    * Day of Week: Posting on Sunday increases engagements by 0.93% compared to other days of the week.
    * Attachments: Attaching a single Image increases engagements by 0.85% compared to videos, multiple images or no attachments.
    * Post Category: Educational Content increases engagements by 0.77% compared to other categories.
+  
+## Limitations:
+* **Dataset Size:** The analysis and machine learning models are based on a limited sample size (top 50 posts). Although ElasticNet with Cross-Validation was utilized to mitigate overfitting, the predictions and feature weights should be treated as directional insights rather than absolute, generalizable rules.
+* **Context Specificity:** The findings strictly reflect the performance of my personal LinkedIn content and the engagement behavior of my specific network. Engagement patterns, optimal posting days, and content preferences may vary significantly for other profiles, industries, or target audiences.
