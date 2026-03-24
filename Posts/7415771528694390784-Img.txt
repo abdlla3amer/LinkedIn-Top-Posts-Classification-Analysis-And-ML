@@ -1,0 +1,44 @@
+Hi, say hello to my very first Visual Classification using Linear Regression
+
+Code:
+import numpy as np
+import pandas as pd
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+
+df = pd.read_csv('data.csv')
+df.rename(columns= lambda x:x.lower(), inplace=True)
+
+# creating dummy variables for the attendance col
+df.attendance = df.attendance.map({'Yes':1, 'No':0})
+
+# defining dependent & independent variables
+y = df.gpa
+x_1 = df[['sat', 'attendance']]
+
+# adding constant of 1 (x-0)
+x = sm.add_constant(x_1)
+
+# fitting an ordinary least squares linear regression model
+results = sm.OLS(y, x).fit()
+
+# printing results
+results.summary()
+
+hashtag
+
+hashtag#creating predicted columns
+df['yhat_yes'] = 0.6439 + 0.0014 * df.sat + 0.2226
+df['yhat_no'] = 0.6439 + 0.0014 * df.sat
+
+# plotting a classification visualization
+plt.title('Effect of SAT Score and Attendance on GPA')
+plt.scatter(df.sat, df.gpa, c=df.attendance, cmap='RdYlGn')
+plt.plot(df.sat, df.yhat_yes, color='green', label = 'Attended +70%')
+plt.plot(df.sat, df.yhat_no, color='red', label = 'Less than 70%')
+plt.xlabel('SAT Score')
+plt.ylabel('GPA')
+plt.savefig('my_cool_graph.png', dpi=300, bbox_inches='tight')
+plt.legend()

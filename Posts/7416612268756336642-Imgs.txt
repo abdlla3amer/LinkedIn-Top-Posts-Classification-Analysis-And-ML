@@ -1,0 +1,16 @@
+Hi,
+With only 5 lines of code of hashtag#python written in less than 10 seconds I was able to plot the distribution of the data for 12 numeric features in the Airbnb dataset, specifying a title for each figure, getting intuition about the data, detecting outliers in the RealSum column (Price), knowing the shape of each feature's distribution and how skewed it is and specifying a title for each figure without needing to write it.
+
+This all happened in less than 1 minute.
+
+Can you please tell me how many hours will you need to do this in excel that you suggest that it's an efficient data analysis tool? And more importantly, where would you put these figures? A new messy sheet or will you just stick with the existing sheet to make it messier?
+
+You are really joking guys when you compare excel with python or even for considering excel for data analysis when dealing with real world datasets.
+
+The 5 lines Code:
+for column in df.columns:
+ if df[column].dtype == float:
+ plt.figure()
+ df[column].hist()
+ plt.title(column.title().replace('_', ' '))
+

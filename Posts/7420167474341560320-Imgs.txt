@@ -1,0 +1,7 @@
+Good evening dears,
+I'm happy to share my latest Data Science project: Used Cars Price Prediction, an end-to-end linear regression analysis for used cars prices and predicting car prices depending on brand, body type, mileage, engine displacement and engine type (fuel type).
+This project strictly followed the process flow offered by 365 Data Science regarding linear regression analysis, so you can use it as a trusted guide for your linear regression analysis.
+Below are some picks of the project, you can view the full project repository on github from here: https://bit.ly/CarPrice-ML
+
+Happy Weekend 🌲
+hashtag#DataScience hashtag#MachineLearning hashtag#Python hashtag#learn365

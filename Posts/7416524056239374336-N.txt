@@ -1,0 +1,7 @@
+Hi,
+Many LLMs companies like Mistral AI offer the "Weights" of their trained models for free on the internet, you can download them and use them to build you own apps on top of them.
+24 hours ago I was like, ok, good for them, I don't know what "Weights" are but it seems like something very sophisticated that only Einstein-level of intelligence could capture it. But, Buuuut, 5 minutes ago at 365 Data Science Machine Learning in Python course I discovered that Model "Weights" only means the coefficients of the related features.
+If our predicting equation is y_hat = b0 + b1*x1 the companies will offer you the intercept (bias) b0 and the weight of x1 >> b1.
+That simple.
+I studied that in primary school, my dad -who was my math teacher too- just called them coefficients. 
+I'm really starting to believe that silicon valley guys intend to call things with different names to confuse beginners and persuade customers that they are doing some magical thing to offer them their apps.

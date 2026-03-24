@@ -1,0 +1,18 @@
+Stop wasting your marketing budget on the wrong customers! 💸
+That's when Machine Learning comes to the rescue.
+
+I'm happy to share my Machine Learning project , designing a model for an Audiobooks store to predict whether a customer will make a second purchase or not, hence targeting ads and offers to customers who are likely to make a second purchase using deep learning techniques and hyper-parameters fine-tuning to reach the best accuracy the provided data can give us.
+
+80% Test Accuracy: Ensuring 80% of marketing budget will reach the right customers who are very-likely to make a second purchase.
+
+Machine Learning is a long process from statistics, probability, calculus and linear algebra, to crucial tools like SQL, Python, Numpy, Pandas, SKLearn, TensorFlow, Matplotlib, Seaborn and a lot more, but when optimize spending, save money, boost performance and increase businesses' ROI you'll certainly know that it worth it.
+
+Here's the link to the full project on Github: https://lnkd.in/dQp__aSN
+It's top-quality documented and organized in a way that you can discover and get a good intuition about the whole deep learning process.
+
+I strongly recommend that you save the readme file to your personal computer because it's very well structured after a very long search for the best Github readme file structure. You can use the same structure in your upcoming projects.
+
+Thanks for reading,
+Ramadan Kareem
+
+hashtag#DataScience hashtag#DeepLearning hashtag#MachineLearning hashtag#ROI hashtag#MarketingAnalytics hashtag#TensorFlow hashtag#Python

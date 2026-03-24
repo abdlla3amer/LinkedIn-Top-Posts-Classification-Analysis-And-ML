@@ -1,0 +1,14 @@
+I graduated from a 3-tracks - from fundamentals to advanced - data analysis program 3 years ago from a well-known high quality platform and I thought that it's ok I know SQL, I know how to write a readable query, aggregations, CASE statements, JOINS and even sub-queries which is considered to be an advanced topic. I thought that I'll finish this course in 2 days, earn the certificate and move on to the next course in the Data Science career track, but this wasn't the case at all.
+
+This time the SQL course with 365 Data Science was totally different. Thanks to Martin Ganchev who designed a very extensive project-based course to fill the gap between data engineering and data science covering the whole database journey from creation to optimization.
+
+🔹 Database Architecture: Relational schemas and SQL theory.
+🔹 DDL (Data Definition Language): Mastering creation, ALTERing structures, and handling CONSTRAINTs (Primary/Foreign keys, Unique, Auto-increment, etc.).
+🔹 DML (Data Manipulation Language): Deep dive into complex SELECT statements, Filtering (WHERE/HAVING), JOINs, Subqueries and data operations (INSERT, UPDATE, DELETE).
+🔹 Advanced Tools: Stored Procedures, User-Defined Functions, TRIGGERs, and INDEXes.
+
+And then ended this wonderful comprehensive journey with 110 mins exhausting exam to make sure that you really deserve the credits.
+
+Huge thanks to Martin & 365 Data Science team for providing us with such high-quality courses with very reasonable prices that made it possible for Africans to learn and improve their skills with only a laptop and an internet connection.
+
+hashtag#learn365

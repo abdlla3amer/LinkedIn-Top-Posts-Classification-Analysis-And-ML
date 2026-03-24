@@ -1,0 +1,10 @@
+I used to be terrified of Machine Learning, thinking it was reserved for Einstein-level geniuses. Today, I’m happy to say that fear is gone.
+
+After 8+ hours with Iliya Valchanov who makes everything simple and very easy to grasp, Iliya made all my fears go away and turned me from a data analyst to a data scientist who understands every little detail about his data.
+
+I strongly recommend this course for anyone who's seeking to understand Machine Learning rather than using tools and libraries without knowing what's really happening under the hood.
+
+Thanks 365 Data Science and huge thanks to Iliya who both made my life so much better (with a statistical evidence).
+
+hashtag#DataScience hashtag#MachineLearning hashtag#Python hashtag#learn365
+
